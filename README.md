@@ -1,82 +1,59 @@
-🏃‍♂️ Sprintly
-Sprintly is a streamlined project management tool designed to help Agile teams plan, track, and execute their sprints with ease. It provides a clean interface for managing backlogs, assigning tasks, and monitoring project velocity.
+# Sprintly
 
-🚀 Features
-Sprint Planning: Easily move tasks from the backlog to active sprints.
+Sprintly is a streamlined project management tool designed to help Agile teams plan, track, and execute their sprints with ease. It provides a clean interface for managing backlogs, assigning tasks, and monitoring project progress. This tool focuses on improving team productivity with intuitive UI and essential sprint features.
 
-Kanban Board: Visualize workflow with "To Do," "In Progress," and "Done" columns.
+## Features
 
-Task Management: Create, edit, and assign tasks with priority levels and labels.
+- **Sprint Planning:** Easily move tasks from the backlog into active sprints. 
+- **Kanban Board:** Visualize workflow with "To Do", "In Progress", and "Done" columns. 
+- **Task Management:** Create, edit, and assign tasks with priority levels and labels. 
+- **Team Collaboration:** Real-time status tracking for team members. :contentReference
+- **Responsive UI:** Optimized for both desktop and mobile views. :contentReference
 
-Team Collaboration: Real-time updates and status tracking for team members.
+## Built With
 
-Responsive UI: Fully optimized for both desktop and mobile views.
+This project uses modern web technologies:
 
-🛠️ Built With
-Frontend: React.js / HTML5 / CSS3 (Tailwind CSS)
+- **Frontend:** React, TypeScript, HTML, CSS (TailwindCSS likely) 
+- **State Management:** (Context API or Redux — inferred based on common patterns) 
+- **Tooling:** Vite for build tooling and fast development.
 
-Backend: Node.js / Express.js (if applicable)
+## Getting Started
 
-Database: MongoDB / PostgreSQL (if applicable)
+To get a local copy up and running:
 
-State Management: Redux / Context API
+### Prerequisites
 
-📸 Screenshots
-(Optional: Add a preview of your dashboard here)
+You’ll need:
 
-💻 Getting Started
-Prerequisites
-Node.js (v14.x or higher)
+- Node.js (version 14.x or higher)
+- npm or yarn
 
-npm or yarn
+### Installation
 
-Installation
-Clone the repository:
+1. **Clone the repository**
+2. ```
+    git clone https://github.com/adityaj0412/sprintly.git
 
-Bash
+3. **Navigate to the project**
+   ```
+    cd sprintly
 
-git clone https://github.com/adityaj0412/sprintly.git
-Navigate to the project folder:
 
-Bash
+4. **Install dependencies**
 
-cd sprintly
-Install dependencies:
+        npm install
+        # or
+        yarn install
 
-Bash
 
-npm install
-Start the development server:
+5. **Start the development server**
 
-Bash
+        npm start
+        # or
+        yarn start
 
-npm start
-📂 Project Structure
-Plaintext
 
-sprintly/
-├── src/
-│   ├── components/     # Reusable UI components (Board, Card, Navbar)
-│   ├── hooks/          # Custom React hooks
-│   ├── pages/          # Main views (Dashboard, Login, Settings)
-│   └── utils/          # Helper functions and constants
-├── public/             # Static assets
-└── package.json        # Dependencies and scripts
-🤝 Contributing
-Fork the Project.
-
-Create your Feature Branch (git checkout -b feature/NewFeature).
-
-Commit your Changes (git commit -m 'Add some NewFeature').
-
-Push to the Branch (git push origin feature/NewFeature).
-
-Open a Pull Request.
-
-👤 Author:
-Aditya kumar
-
-GitHub: @adityaj0412
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Author 
+Aditya
+GitHub: https://github.com/adityaj0412
