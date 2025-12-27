@@ -32,22 +32,20 @@ You’ll need:
 ### Installation
 
 1. **Clone the repository**
-2. ```
-    git clone https://github.com/adityaj0412/sprintly.git
+   
+       git clone https://github.com/adityaj0412/sprintly.git
 
-3. **Navigate to the project**
-   ```
-    cd sprintly
+2. **Navigate to the project**
 
+       cd sprintly
 
-4. **Install dependencies**
+3. **Install dependencies**
 
         npm install
         # or
         yarn install
 
-
-5. **Start the development server**
+4. **Start the development server**
 
         npm start
         # or
